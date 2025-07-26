@@ -2,6 +2,7 @@ body{
     background-color: #0d192e;
     color : wheat;
     
+    
     /* background-image: url(bgimg.avif);
     background-size: cover; */
     ;
@@ -180,6 +181,55 @@ projrcta.html{
         background-image: url(Images/project\ 2.png);
         background-size: cover;
         margin-left: 20px;
+    }
+    @media (max-width: 768px) {
+        #navbar {
+            flex-direction: column;
+            height: auto;
+            padding: 15px;
+        }
+    
+        #logo1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+    
+        a {
+            margin-right: 10px;
+            font-size: 1rem;
+        }
+    
+        .bgimg {
+            height: 180px;
+            width: 180px;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 60px;
+        }
+    
+        .details {
+            width: 90%;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 0px;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+    
+        .wrapper {
+            flex-wrap: wrap;
+        }
+    
+        .pdf, .pdf2 {
+            width: 90%;
+            margin: 10px auto;
+            height: 200px;
+        }
+    
+        footer {
+            font-size: 0.8rem;
+            padding: 10px;
+        }
     }
 
 
