@@ -1,0 +1,185 @@
+body{
+    background-color: #0d192e;
+    color : wheat;
+    
+    /* background-image: url(bgimg.avif);
+    background-size: cover; */
+    ;
+}
+h2{
+    color: rgb(141, 139, 139);
+}
+#new{
+    color: rgb(31, 31, 113);
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: blanchedalmond;
+}
+#navbar{
+background-color: #0d192e;
+height: 70px;
+padding: 10px;
+
+}
+#logo1{
+    color: #f08804;
+    font-size: 40px;
+}
+a{
+    margin-right: 210px;
+    text-decoration: none;
+}
+.content{
+    height: 150px;
+}
+footer{
+    height: 50px;
+    width: 100vw;
+    background-color: #0d192e;
+    color: mistyrose;
+    text-align: center;
+    justify-content: center;
+    margin-top: 68px;
+    
+}   
+education.html{
+    background-color: #2b2a2a;
+    color: wheat;
+}
+projrcta.html{
+    background-color: #0d192e;
+    color: wheat;
+}
+.bgimg{
+    border: 2px solid white;
+    height: 300px;
+    width: 300px;
+    background-image: url(utkal.jpg);
+    background-size: cover;
+    position: relative;
+    bottom: 180px;
+    left: 20vh;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 4px 300px rgba(4, 4, 255, 0.5);
+}
+.details{
+    color: white;
+    position: relative;
+    left: 710px;
+    top: 80px;
+    height: 250px;
+    width: 600px;
+    line-height: 1.6rem;
+    font-size: 0.8rem;
+    font-family: cursive;
+    
+    
+}
+#x{
+    font-size: 1rem;
+    color: rgb(8, 8, 214);
+    font-family: 'Times New Roman', Times, serif;
+}
+#y{
+    font-size: 1.6rem;
+    color: rgb(183, 151, 151);
+    font-family: 'Times New Roman', Times, serif;
+}
+#z{
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.social a{
+    margin: 5px;
+    padding: 2px;
+
+}
+.wrapper
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+    
+    .wrapper .icon
+    {
+        margin: 0 0px;
+        text-align: center;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        text-decoration: none;
+        transition: 0.4s each-in-out;
+    }
+    .wrapper .icon span
+    {
+        display: block;
+        height: 60px;
+        width: 60px;
+        color : black;
+        background-color: #0d192e;
+        border-radius: 50%;
+        position: relative;
+        box-shadow:  0px 10px 100px rgba(0, 0, 0, 0);
+        transition: 0.4s each-in-out;
+    }
+    .wrapper .icon span i
+    {
+        line-height: 60px;
+        font-size: 25px;
+
+    }
+    .wrapper .icon .tooltip
+    {
+        position: absolute;
+        top: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #ffffff;
+        color: black;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        opacity: 0;
+        pointer-events: none;
+        box-shadow: 0px 10px 100px rgba(0, 0, 0, 0);
+        transition: 0.4s each-in-out;
+    }
+    .wrapper .icon:hover .tooltip
+    {
+        opacity: 1;
+        pointer-events: auto;
+        box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.5);
+        transition: 0.4s cubic-bezier(0.68 , -0.55 , 0.268 , 1.55);
+
+    }
+    .pdf{
+        height: 200px;
+        width: 300px;
+        background-image: url(Images/project\ 1.png);
+        background-size: cover;
+        margin-left: 20px;
+        
+        
+        
+    }
+    .pdf b{
+        color: brown;
+    }
+    .pdf2{
+        height: 350px;
+        width: 300px;
+        background-image: url(Images/project\ 2.png);
+        background-size: cover;
+        margin-left: 20px;
+    }
+
+
