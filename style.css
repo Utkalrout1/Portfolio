@@ -183,53 +183,74 @@ projrcta.html{
         margin-left: 20px;
     }
     @media (max-width: 768px) {
+        /* NAVBAR stays in one line */
         #navbar {
-            flex-direction: column;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
             height: auto;
-            padding: 15px;
+            padding: 10px 15px;
+            gap: 4px;
+            font-size: 10px;
         }
     
         #logo1 {
-            font-size: 30px;
-            margin-bottom: 10px;
+            font-size: 20px;
+            margin: 0;
         }
     
         a {
             margin-right: 10px;
-            font-size: 1rem;
+            font-size: 0.9rem;
+            text-wrap: nowrap;
         }
     
-        .bgimg {
-            height: 180px;
-            width: 180px;
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: 60px;
-        }
-    
+        /* DETAILS comes next */
         .details {
             width: 90%;
             left: 50%;
             transform: translateX(-50%);
-            top: 0px;
+            position: relative;
+            top: 0;
             font-size: 0.9rem;
             text-align: center;
+            margin-top: 20px;
         }
     
+        /* WRAPPER (social icons) */
         .wrapper {
+            display: flex;
             flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
         }
     
+        /* PROFILE PHOTO COMES AFTER WRAPPER */
+        .bgimg {
+            height: 180px;
+            width: 180px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 0;
+            margin: 200px 0;
+            box-shadow: 0px 4px 60px rgba(4, 4, 255, 0.4);
+        }
+    
+        /* PROJECTS */
         .pdf, .pdf2 {
             width: 90%;
-            margin: 10px auto;
+            margin: 15px auto;
             height: 200px;
         }
     
+        /* FOOTER */
         footer {
             font-size: 0.8rem;
             padding: 10px;
+            text-align: center;
+            margin-top: -150px;
         }
     }
-
-
